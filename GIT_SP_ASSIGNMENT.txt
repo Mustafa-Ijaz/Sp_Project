@@ -1,0 +1,44 @@
+https://github.com/Mustafa-Ijaz/Assignment.git
+https://github.com/Mustafa-Ijaz/Assignment/tree/
+commands:
+
+First time:-
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin  
+git push -u origin master
+
+Push an existing repository from the command line:-
+
+git remote add origin https://github.com/Mustafa-Ijaz/Assignment.git
+git push -u origin master
+
+If local repository and remote repositries are in-compaitble then
+git push -u origin master --force
+
+branch:
+Create a new branch:
+git checkout -b branch_name
+Edit, add and commit your files.
+Push your branch to the remote repository:
+git push -u origin feature_branch_name
+
+Status:-
+git status
+
+jump checkout:-
+git checkout <path where to jump>
+
+log:-
+git log
+git log --oneline
+
+pull:-
+git pull origin master
+git clone https://github.com/Mustafa-Ijaz/Assignment.git
+
+merge:-
+to merge you must be in master or in any other branch you want to merge with
+git merge <branchname>
